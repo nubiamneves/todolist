@@ -19,11 +19,11 @@ export function Task({task, onDeleteTask}){
             <p className={check ? 'itemchecked': ''}>{task.content}</p>
 
             <TrashButton onClick={handleDeleteTask} title="deletar item">
-                <TrashSimple size={23}/>
+                <TrashSimple size={25}/>
             </TrashButton>
 
             <CheckButton onClick={handleCheckTask} title="checar item">
-                <Check size={27}/>
+                <Check size={25}/>
             </CheckButton>
         </Container>
     )

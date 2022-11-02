@@ -3,7 +3,7 @@ export const postArray = [
     {
         id: Math.random(),
         author: {
-            name: "",
+            name: "Welcome",
         
         },
 
