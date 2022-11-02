@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { Task } from "../Task";
 import { Container, Content, Form, TaskList } from "./styled";
+import {postArray} from "../../utils/posts";
 
-export function CreateTask(){
+export function CreateTask({info}){
 
         const [tasks, setTasks] = useState([]);
     
@@ -76,4 +77,3 @@ export function CreateTask(){
             </Container>
         )
     }
-}
